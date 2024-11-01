@@ -14,7 +14,8 @@ import { Env } from "src/env";
         const secret = config.get('JWT_SECRET', {infer: true})
 
         return{
-          secret
+          secret,
+          
         }
       }
     })
